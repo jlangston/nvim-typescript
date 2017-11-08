@@ -1,7 +1,7 @@
 " nvim-completion-manager source
 
 func! cm#sources#typescript#register()
-    let scopes = ['typescript']
+    let scopes = ['typescript', 'typscript.jsx']
     if g:nvim_typescript#javascript_support
         call insert(scopes, 'javascript')
     endif
